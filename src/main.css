@@ -1,0 +1,25 @@
+:root{
+  --main-bg: #0b4897;
+}
+
+input:focus, button:focus {
+  border: 1px solid var(--main-bg) !important;
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--main-bg) !important;
+  border-color: var(--main-bg) !important;
+}
+
+.card, .btn, input{
+  border-radius:0 !important;
+}
+
+.btn{
+  background: var(--main-bg);
+}
+
+.btn:hover{
+  background: var(--main-bg);
+}
